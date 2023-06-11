@@ -1,3 +1,4 @@
+
 //!1- İç içe for döngüsü kurarak çarpım tablosunu yazdırma
 // for (var i = 1; i <= 10; i++) {
 //     var row = "";
@@ -8,8 +9,6 @@
 //     console.log(row);
 //   }
 //   //*(Bu kodda, dıştaki for döngüsü i değişkenini 1'den 10'a kadar dolaştırırken, içteki for döngüsü j değişkenini 1'den 10'a kadar dolaştırır. Her bir içteki döngü adımında, carpim adlı bir değişkene çarpım sonucunu atar ve row adlı bir stringe çarpım tablosunun bir satırını ekler.İçteki döngü tamamlandığında, row stringi bir satırı temsil eder ve console.log(row) ifadesi ile konsola yazdırılır. Bu şekilde, her i değeri için bir satır oluşur ve çarpım tablosu tamamlanır.)
-
-
 
 //!2- Armstrong sayı hesaplama (Basamaklarının küpleri toplamı kendisine eşit olan sayılara Armstrong sayı denir .)
 //!3-Promp ile kullanıcıdan sayı istenecek. Daha sonra while döngüsüyle bu sayının 0'dan küçük olması veya 100'den büyük olması durumunda yeniden sayı istenecek. Kullanıcı 0-100 arasında sayı girene kadar döngü devam edecek.
@@ -84,4 +83,14 @@ for (let i = 0; i < 5; i++) {
 
 // console.log(i); // Hatalı! i sadece for döngüsü kapsamında erişilebili
 //!soru=>
-console.log( 5 && "Merhaba" || !0 && true || "Tebrikler")
+
+const input=document.querySelector(`#input`);
+
+// input.addEventListener(`focus`,run);
+// input.addEventListener(`blur`,run);
+input.addEventListener(`copy`,run);
+
+
+function run(e){
+  console.log(e.type);
+}
