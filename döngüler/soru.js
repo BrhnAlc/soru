@@ -84,13 +84,14 @@ for (let i = 0; i < 5; i++) {
 // console.log(i); // Hatalı! i sadece for döngüsü kapsamında erişilebili
 //!soru=>
 
-const input=document.querySelector(`#input`);
-
-// input.addEventListener(`focus`,run);
-// input.addEventListener(`blur`,run);
-input.addEventListener(`copy`,run);
 
 
-function run(e){
-  console.log(e.type);
-}
+
+
+
+
+
+
+
+
+
