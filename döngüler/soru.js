@@ -85,6 +85,14 @@ for (let i = 0; i < 5; i++) {
 //!soru=>
 
 
+const input =document.querySelector(`#input`);
+
+input.addEventListener(`paste`, run);
+
+function run(e){
+
+  console.log(e.type);
+}
 
 
 
