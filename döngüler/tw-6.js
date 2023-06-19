@@ -306,3 +306,5 @@ console.log("Saniye:", seconds);
 //* 5-Erişilebilirlik: SCSS, Sass'a kıyasla daha yaygın kullanılan bir sözdizimi olduğu için daha fazla kaynak ve topluluk desteğine sahiptir. SCSS, daha fazla geliştirici tarafından benimsenmiş ve daha fazla proje tarafından kullanılmaktadır.
 
 //*Sonuç olarak, Sass ve SCSS, stil sayfalarınızı daha düzenli ve modüler hale getirmek için kullanılan CSS ön işleyicileridir. Seçim yaparken, mevcut CSS kodunuza ne kadar uyumlu olmasını istediğiniz ve kişisel tercihleriniz göz önünde bulundurulmalıdır.
+
+

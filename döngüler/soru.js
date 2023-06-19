@@ -1,3 +1,40 @@
+//?JavaScript let : blok kapsamında bir değişken tanımlamak için kullanılır.
+//!örnek
+let x=5;
+if(true){
+  let x=10;
+  console.log(x);
+}
+console.log(x);
+//*Bu örnekte, let anahtar kelimesi kullanılarak x adında iki farklı değişken tanımlanır. İlk console.log ifadesi, iç içe geçmiş blokta tanımlanan x değişkeninin değerini gösterir. İkinci console.log ifadesi ise daha genel kapsamdaki x değişkeninin değerini gösterir.
+
+//!örnek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //!1- İç içe for döngüsü kurarak çarpım tablosunu yazdırma
 // for (var i = 1; i <= 10; i++) {
