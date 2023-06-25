@@ -253,3 +253,24 @@ console.log(Object.keys(user));
 console.log(Object.keys(user));
 
 console.log(Object.entries(user));
+
+//! function
+
+function selamla(){
+  console.log("merhabalar");
+}
+selamla();
+
+
+const yasArtır=(x)=>{
+  return x + 1;
+}; 
+console.log(yasArtır(3));
+
+
+function burhan(x){
+  return x * 2;
+};
+ 
+
+console.log(burhan(4));
