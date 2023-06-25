@@ -274,3 +274,35 @@ function burhan(x){
  
 
 console.log(burhan(4));
+
+
+const alaca = (a)=>{
+  return a * 5;
+};
+ 
+console.log(alaca(10));
+
+
+
+//! koşul
+
+const burhanYas=34;
+
+const ayşeYas=37;
+
+const meslekBurhan="yazılımcı";
+
+const meslekAyşe="öğretmen";
+
+
+if(burhanYas>ayşeYas){
+  console.log("burhan ayşeden büyüktür");
+}else{
+  console.log("ayşe burhandan büyüktür");
+}
+
+if(meslekAyşe==="yazılımcı" && meslekBurhan==="öğretmen"){
+  console.log(true);
+}else{
+  console.log(false);
+}
