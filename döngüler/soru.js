@@ -218,3 +218,12 @@ console.log(sonuc);
 
 const join= isimler.join("**")
 console.log(join);
+
+
+const indexof=isimler.indexOf(2);
+console.log(isimler);
+
+console.log(indexof);
+
+const reverse=isimler.reverse();
+console.log(reverse);
