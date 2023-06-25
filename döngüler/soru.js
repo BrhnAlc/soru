@@ -354,3 +354,13 @@ for(let i=0; i<users.length; i++){
   
 }
 console.log(kırktanKüçükler);
+
+
+
+users.forEach((user, i ,array)=>{
+
+  console.log(user , i , array);
+})
+
+
+kırktanKüçükler
