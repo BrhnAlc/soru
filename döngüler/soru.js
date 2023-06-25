@@ -318,3 +318,14 @@ if(bool1==true && bool2 ==true&& bool3 ==false){
 }else{
   console.log(false);
 }
+
+
+
+
+let number1 =5;
+
+// while(number1<20){
+  console.log(number);
+  number1 *=number
+}
+console.log("dışarda");
