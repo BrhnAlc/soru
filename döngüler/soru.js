@@ -306,3 +306,15 @@ if(meslekAyşe==="yazılımcı" && meslekBurhan==="öğretmen"){
 }else{
   console.log(false);
 }
+
+
+const bool1=true;
+const bool2=true;
+const bool3=false;
+
+
+if(bool1==true && bool2 ==true&& bool3 ==false){
+  console.log(true);
+}else{
+  console.log(false);
+}
