@@ -206,3 +206,9 @@ console.log(isimler);
 isimler.pop();
 
 console.log(isimler);
+
+const result=isimler.splice(0,2);
+
+console.log(isimler);
+
+console.log(result);
