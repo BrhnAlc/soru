@@ -191,3 +191,10 @@ let örnekString="burhan";
 
  örnekString="ayşe";
  console.log(örnekString);
+
+ //! array
+
+ const isimler = ["burhan","ayşe","abdullah","zinnet",1,false];
+
+ console.log(isimler);
+ console.log(isimler.length);
