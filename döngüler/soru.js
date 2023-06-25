@@ -198,3 +198,7 @@ let örnekString="burhan";
 
  console.log(isimler);
  console.log(isimler.length);
+
+isimler.push("hilal");
+
+console.log(isimler);
