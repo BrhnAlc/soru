@@ -150,7 +150,7 @@
 // }
 
 
-
+//! örnek
 let isim ="burhan";
 isim ="ayşe";
 
@@ -158,4 +158,36 @@ console.log(isim);
 
 
 
+//!  örnek
+const isim1="can garip";
 
+console.log(isim1);
+
+//! örnek
+
+let number=50;
+
+console.log(number++);
+console.log(number);
+console.log(++number);
+console.log(number);
+
+
+//!örnek 
+let ornekNumber =1.123;
+let örnekString="burhan";
+ const örnekBoolean=true;
+
+ let ornekUndefind= undefined;
+ let ornekNull=null;
+
+ console.log(ornekNumber);
+
+ ornekNumber =12.3;
+
+ console.log(ornekNumber);
+
+ console.log(örnekString);
+
+ örnekString="ayşe";
+ console.log(örnekString);
