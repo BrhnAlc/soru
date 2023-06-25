@@ -202,3 +202,7 @@ let örnekString="burhan";
 isimler.push("hilal");
 
 console.log(isimler);
+
+isimler.pop();
+
+console.log(isimler);
