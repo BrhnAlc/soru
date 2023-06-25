@@ -227,3 +227,6 @@ console.log(indexof);
 
 const reverse=isimler.reverse();
 console.log(reverse);
+
+const shift=isimler.shift()
+console.log(shift);
