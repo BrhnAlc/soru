@@ -192,7 +192,7 @@ let örnekString="burhan";
  örnekString="ayşe";
  console.log(örnekString);
 
- //! array
+ //! array 
 
  const isimler = ["burhan","ayşe","abdullah","zinnet",1,false];
 
@@ -230,3 +230,26 @@ console.log(reverse);
 
 const shift=isimler.shift()
 console.log(shift);
+
+
+//! objeler 
+
+const user={
+  name:"burhan",
+  age:34,
+  skills:["html","css","javascript"],
+  isSomething:false,
+
+}
+console.log(user);
+console.log(user.name);
+console.log(user.skills);
+
+user.surname="alaca";
+console.log(user);
+
+console.log(Object.keys(user));
+
+console.log(Object.keys(user));
+
+console.log(Object.entries(user));
