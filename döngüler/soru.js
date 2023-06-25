@@ -212,3 +212,9 @@ const result=isimler.splice(0,2);
 console.log(isimler);
 
 console.log(result);
+
+const sonuc= isimler.slice(2,4);
+console.log(sonuc);
+
+const join= isimler.join("**")
+console.log(join);
