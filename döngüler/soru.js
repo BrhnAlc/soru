@@ -324,8 +324,33 @@ if(bool1==true && bool2 ==true&& bool3 ==false){
 
 let number1 =5;
 
-// while(number1<20){
-  console.log(number);
-  number1 *=number
+while(number1<20){
+  console.log(number1);
+  number1 =number1 * 2;
 }
 console.log("dışarda");
+
+
+const users=[
+  {id:0, name:"burhan", age:34},
+  {id:1, name:"ayşe", age:32},
+  {id:2, name:"hilal", age:20},
+  {id:3, name:"bilal", age:18}
+]
+
+
+kırktanKüçükler=[];
+ysşıYirmidenKüçükler=[];
+
+
+for(let i=0; i<users.length; i++){
+
+  if(users[0].age<40){
+    kırktanKüçükler.push(users[i].name)
+    
+  }else{
+    console.log(users[i]);
+  }
+  
+}
+console.log(kırktanKüçükler);
