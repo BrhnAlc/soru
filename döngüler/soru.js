@@ -339,28 +339,62 @@ const users=[
 ]
 
 
-kırktanKüçükler=[];
-ysşıYirmidenKüçükler=[];
 
+const otuzdanBüyükolan=[];
+const otuzdanKüçükler=[];
 
 for(let i=0; i<users.length; i++){
-
-  if(users[0].age<40){
-    kırktanKüçükler.push(users[i].name)
-    
-  }else{
-    console.log(users[i]);
+  if(users[i].age>30){
+  otuzdanBüyükolan.push(users[i].name)
   }
-  
+  console.log(users[i]);
 }
-console.log(kırktanKüçükler);
+console.log(otuzdanKüçükler);
+
+console.log(otuzdanBüyükolan);
 
 
 
-users.forEach((user, i ,array)=>{
 
-  console.log(user , i , array);
+const user1=[
+  {id:0, name:"burhan", age:34},
+  {id:1, name:"ayşe", age:32},
+  {id:2, name:"hilal", age:20},
+  {id:3, name:"bilal", age:18}
+]
+
+const otuzUçtenBuyuk=[];
+
+
+user1.forEach(()=>{
+  if(user1.age>33){
+    otuzUçtenBuyuk.push(user1.name)
+  }else{
+    console.log(user1);
+  }
 })
+console.log(otuzUçtenBuyuk);
 
 
-kırktanKüçükler
+
+
+const user2=[
+  {id:0, name:"burhan", age:34},
+  {id:1, name:"ayşe", age:32},
+  {id:2, name:"hilal", age:20},
+  {id:3, name:"bilal", age:18}
+]
+
+
+const otuzdanKüçükler1=[];
+
+for(let i=0; i<user2.length; i++){
+  console.log(user2);
+  if(user2[i].age<30){
+    otuzdanKüçükler.push(user2[i].name)
+    console.log(otuzdanKüçükler);
+  }
+}
+console.log(otuzdanKüçükler);
+
+
