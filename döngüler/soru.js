@@ -398,3 +398,24 @@ for(let i=0; i<user2.length; i++){
 console.log(otuzdanKüçükler);
 
 
+for(let i=0; i<user2.length; i++){
+  console.log(user2);
+}
+
+user2.forEach((user,i,array)=>{
+  console.log(user,i,array);
+})
+
+
+
+const otuzdanKüçükler2=[];
+
+user2.forEach(()=>{
+if(user2.age<30){
+  otuzdanKüçükler2.push(user2.name);
+}else{
+  console.log(otuzdanKüçükler);
+}
+})
+
+
